@@ -22,6 +22,29 @@
   transition: background 0.2s;
   cursor: pointer;
   display: block;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  right: 50vw;
+  top: 10vw;
+}
+
+.like {
+  background: pink;
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: calc(5px + 1.5vmin);
+  transition: background 0.2s;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  transform: translate(40px);
+  top: 10vw;
 }
 .more:hover {
   background: #00aa00;
@@ -41,4 +64,39 @@
   transition: background 0.2s;
   cursor: pointer;
   display: block;
+}
+
+.author {
+  color: rgb(150, 150, 170);
+  font-size: 30;
+}
+
+.authors {
+  color: rgb(150, 150, 170);
+  font-size: 12pt;
+  text-align: right;
+}
+
+.wisdoms {
+  color: rgb(200, 200, 200);
+  font-size: 12pt;
+}
+
+.hearts {
+  color: rgb(255, 0, 0);
+  font-size: 20pt;
+}
+
+.wisdom {
+  color: white;
+  font-size: 30pt;
+}
+
+.list {
+  text-align: left;
+  border-radius: 10px;
+  border: solid 1px  rgb(150, 150, 170);
+  padding: 10px;
+  margin-top: 30px;
+  padding-top: 0px;
 }
